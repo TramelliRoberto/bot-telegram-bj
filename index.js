@@ -22,7 +22,7 @@ bot.on("message", (msg) => {
     // Se il messaggio è /play e il gioco non è ancora iniziato
     bot.sendMessage(
       chatId,
-      "Il gioco non è ancora iniziato. Scrivi /start per iniziare!"
+      "Il match deve ancora iniziare. Scrivi /start per iniziare!"
     );
   }
 });
