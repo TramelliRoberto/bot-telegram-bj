@@ -138,6 +138,18 @@ bot.onText(/play/, (msg) => {
           ", "
         )}.`
       );
+      bot.sendMessage(
+        msg.chat.id,
+        'ne facciamo un altra ?',
+        {
+          reply_markup: {
+            keyboard: [
+              ["play"],
+            ],
+            one_time_keyboard: true,
+          },
+        }
+      );
     } else {
       // Mostra le nuove carte del giocatore e chiedi di nuovo
       bot.sendMessage(
