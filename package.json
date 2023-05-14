@@ -6,8 +6,8 @@
     "node-telegram-bot-api": "^0.61.0",
     "serverless-http": "^3.2.0"
   },
-  "engines" : {
-    "node" : "17.0",
-    "npm" : "8.1"
+  "engines": {
+    "node": "17.0",
+    "npm": "8.1"
   }
 }
