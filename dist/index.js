@@ -312,5 +312,4 @@ bot.onText(/play/, (msg) => {
       }
     );
   });
-  
 });
